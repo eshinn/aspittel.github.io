@@ -18,8 +18,8 @@ email: ali07cat07@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Full Stack Developer / Political Junkie / Hip Hop Fan / New England Sports
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-twitter_username: @aspittel
+url: "aspittel.github.io" # the base hostname & protocol for your site
+twitter_username: "@aspittel"
 github_username:  aspittel
 
 # Build settings
