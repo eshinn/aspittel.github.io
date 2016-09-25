@@ -1,0 +1,159 @@
+@import 'https://fonts.googleapis.com/css?family=Abel'
+@import 'https://fonts.googleapis.com/css?family=Roboto'
+
+.home-wrap
+  header
+    width: 200px
+    background: #ef5350
+    padding: 50px 0
+    font-family: 'Roboto', sans-serif
+    vertical-align: top
+
+    .header-position
+      position: fixed
+      top: 30px
+      left: 0
+      bottom: 30px
+      width: 200px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      vertical-align: top
+
+  .logo
+    max-width: 200px
+    height: 10px
+    padding: 0 0 0 0
+    margin-top: 0px
+    text-align: center
+    color: white
+    font-family: 'Abel', sans-serif
+    vertical-align: top
+
+  hr
+    width: 75%
+    text-align: center
+    margin-right: 250px
+    margin: 10px 25px 30px
+
+  .contact
+    font-size: 30px
+    text-align: center
+
+    a
+      margin-left: 10px
+
+  .site-nav
+    ul
+      list-style: none
+      text-align: center
+      font-size: 16px
+      // margin-left: -10px
+
+      li
+        margin-bottom: 10px
+
+        &:last-child
+          margin-bottom: 0
+
+  .email-link
+    display: block
+    text-align: right
+    padding-right: 20px
+
+  .mobile-nav-toggle
+    display: none
+    width: 50px
+    height: 50px
+    margin-right: 20px
+    align-items: center
+    cursor: pointer
+
+    span,
+    span:before,
+    span:after
+      content: ""
+      display: block
+      height: 2px
+      width: 100%
+      background: #333
+      position: relative
+
+      transition: all 0.3s ease-in-out
+
+    span:before
+      top: 15px
+
+    span:after
+      top: -17px
+
+    &.is-open span
+      background: transparent
+
+    &.is-open span:before,
+    &.is-open span:after
+      transform-origin: center
+      transform: rotate(45deg)
+      top: 0
+
+    &.is-open span:after
+      transform: rotate(-45deg)
+
+
+.mobile-nav
+  display: none
+  position: absolute
+  width: 100%
+  background: white
+  padding: 30px 0 30px
+  transform: translateY(-100%)
+  transition: all 0.3s ease-in-out
+
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+
+  li
+    text-align: center
+    margin-bottom: 10px
+
+
+
+@media (max-width: 775px)
+  .home-wrap
+    header
+      width: auto
+      padding: 10px 0 0 0
+      height: 75px
+
+      .header-position
+        position: relative
+        top: auto
+        bottom: auto
+        left: auto
+        width: auto
+        flex-direction: row
+        align-items: top
+
+      .site-nav,
+      .email-link
+        display: none
+
+      .logo
+        height: 45px
+        margin-left: 40px
+        margin-top: 0px
+
+      .mobile-nav-toggle
+        display: flex
+
+      .contact
+        display: none
+
+      hr
+        display: none
+
+    .mobile-nav.is-open
+      display: block
+      transform: translateY(0%)
