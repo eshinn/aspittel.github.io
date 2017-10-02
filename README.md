@@ -1,2 +1,2 @@
 # aspittel.github.io
-My personal site written with Material Design, SASS, Gulp, Jekyll, and Pug.
+My personal site! Hosted at https://aspittel.github.io/
