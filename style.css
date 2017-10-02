@@ -3,6 +3,10 @@ canvas {
     display: block;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 #particles-js {
     position: absolute;
     width: 100%;
@@ -15,7 +19,6 @@ canvas {
     right: 50%;
     transform: translate(50%, -50%);
     padding: 30px 30px 30px 30px;
-    font-family: 'Lato', sans-serif;
 }
 
 h3 {
@@ -54,8 +57,8 @@ nav {
     margin-right: 25px;
 }
 
-button {
-    margin-top: 10px;
+.top-pad {
+    margin-top: 5px;
 }
 
 .github {
