@@ -15,3 +15,12 @@ The interactive polka-dot background's CSS was definitely a challenge.
     * Materialize CSS
 * JavaScript
     * Particles.js
+
+## Deployment
+Site is deployed at https://aspittel.github.io.
+
+## Local Installation
+```bash
+$ git clone https://github.com/aspittel/aspittel.github.io/
+$ hs
+```
