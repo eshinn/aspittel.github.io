@@ -1,20 +1,19 @@
 # My Portfolio Site!
 
 ## Motivation
-My motivation for writing my personal site was to have a good place for people to get in touch with me after giving talks. Also, I don't get many excuses to write static sites so this was pretty fun!
+My motivation for writing my personal site was to have a good place for people to get in touch with me after giving talks. Also, I don't get many excuses to write static sites so this was **so** much fun!
 
 ## Code Style
 I stick to standard.js for JavaScript
 
 ## Features
-The interactive polka-dot background's CSS was definitely a challenge. 
+All of the CSS! I challenged myself to not use a framework and there's flexbox, animations, pseudoclasses, parallax, canvas, etc.! It was definitely a challenge to get everything looking great!
 
 ## Stack
 * HTML5
-* CSS
-    * Materialize CSS
+* CSS3
 * JavaScript
-    * Particles.js
+    * P5JS for the dynamic random shapes!
 
 ## Deployment
 Site is deployed at https://aspittel.github.io.
