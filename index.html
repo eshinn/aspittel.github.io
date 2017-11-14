@@ -1,29 +1,425 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Ali Spittel</title>
-    <meta name="viewport" content="width=device-width">
+<html lang="en">
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  </head>
+<head>
+  <title>Ali Spittel</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
 
-  <body>
-    <div id="particles-js"></div>
-      <div class="content center-align flow-text">
-        <h3><span class="highlighted-pink">Hey! I'm Ali.</span></h3>
-        <h5>I <span class="highlighted-purple">really</span> like writing code. Especially in <span class="highlighted-blue">Python</span>      and <span class="highlighted-green">JavaScript.</span></h5>
-        <a href="./about.html" class="indigo darken-1 waves-effect waves-light btn top-pad">About</a>
-        <a href="./projects.html" class="indigo darken-1 waves-effect waves-light btn top-pad">Projects</a>
-        <a href="./contact.html" class="indigo darken-1 waves-effect waves-light btn top-pad">Contact</a>
+<body>
+  <div id="header">
+    <div id="header-name" class="hidden">
+      <span class="red header-letter">A</span>
+      <span class="purple header-letter">L</span>
+      <span class="bright-blue header-letter">I</span> &nbsp;
+      <span class="dark-blue header-letter">S</span>
+      <span class="blue header-letter">P</span>
+      <span class="teal header-letter">I</span>
+      <span class="green header-letter">T</span>
+      <span class="yellow header-letter">T</span>
+      <span class="pink header-letter">E</span>
+      <span class="orange header-letter">L</span>
+    </div>
+    <div id="links">
+      <a class="link bright-blue" href="#about">About</a>
+      <a class="link orange" href="#portfolio">Portfolio</a>
+      <a class="link green" href="#contact">Contact</a>
+    </div>
+  </div>
+  <div id="content">
+    <div id="intro">
+      <div id="name">
+        <span class="logo">
+          <span class="red name-letter letter">A</span>
+          <span class="purple name-letter letter">L</span>
+          <span class="bright-blue name-letter letter">I</span>
+        </span>
+        <span class="logo">
+          <span class="dark-blue name-letter letter">S</span>
+          <span class="blue name-letter letter">P</span>
+          <span class="teal name-letter letter">I</span>
+          <span class="green name-letter letter">T</span>
+          <span class="yellow name-letter letter">T</span>
+          <span class="pink name-letter letter">E</span>
+          <span class="orange name-letter letter">L</span>
+        </span>
+      </div>
+
+      <p class="intro">I really like writing code.</p>
+      <p class="intro">Especially in Python and JavaScript.</p>
+      <p class="intro"><em>(click anywhere to interact)</em></p>
+    </div>
+    <div id="about">
+      <div class="section-header">
+        <span class="dark-blue letter section-letter">A</span>
+        <span class="blue letter section-letter">B</span>
+        <span class="teal letter section-letter">O</span>
+        <span class="green letter section-letter">U</span>
+        <span class="yellow letter section-letter">T</span>
+      </div>
+      <div class="circular"></div>
+      <div class="bio">
+        <p>
+          I have the really cool job of teaching other people how to code at <span class="highlighted-purple">General Assembly DC's</span>          Web Development Immersive program. Before that, I was a software engineer at <span class="highlighted-blue">0ptimus</span>.
+        </p>
+        <p>
+          My favorite stack right now is <span class="highlighted-green">Vue.js</span> on the frontend and <span class="highlighted-pink">Django</span>          on the backend. I also have worked with React, Ruby on Rails, Java, Meteor, Express, MongoDB, PostgreSQL, CSS,
+          and C++.
+        </p>
+        <p>
+          When I'm not working you can find me watching my favorite New England sports teams, competing on CodeWars, taking runs around
+          Capitol Hill, rock climbing, or participating in DC coding community events.
+        </p>
+        <p>
+          I graduated from Hamilton College with a BA in government in 2016 after completing research in how to effectively teach computer
+          science to 7-12th graders and on the differences in representation in congress across party and gender lines.
+        </p>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="./script.js"></script>
-  </body>
+    <div id="portfolio">
+      <div class="section-header">
+        <span class="red section-letter letter">P</span>
+        <span class="purple section-letter letter">O</span>
+        <span class="bright-blue section-letter letter">R</span>
+        <span class="blue letter section-letter">T</span>
+        <span class="teal letter section-letter">F</span>
+        <span class="green letter section-letter">O</span>
+        <span class="yellow section-letter letter">L</span>
+        <span class="pink section-letter letter">I</span>
+        <span class="orange section-letter letter">O</span>
+      </div>
+      <div class="cards projects">
+        <div class="card dark-blue-background">
+          <h5>
+            <a class="project-link" href="https://medium.com/on-learning-new-things">
+              On Learning New Things
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+          </p>
+          <p>
+            Writing
+          </p>
+          <p>
+            I really like learning new web development tools, so I decided to challenge myself to learn one new thing a week and write about it!
+            A full intro post is <a href="https://medium.com/on-learning-new-things/learning-new-things-f4db7f16724" class="deploy-link">here</a>.
+          </p>
+        </div>
+        <div class="card orange-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/media-bias">
+                Media Bias
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-python-plain"></i>
+            <i class="devicon-django-plain"></i>
+            <i class="devicon-postgresql-plain"></i>
+          </p>
+          <p>
+            Python // Django // PostgreSQL
+          </p>
+          <p>
+            Django application that retrieved and stored Tweets about the US Senators. It then performs statistical analyses to test
+            whether certain politicians are discussed differently online across party and gender lines. Finally, the data
+            was displayed using dc.js and Google Charts. Deployed
+            <a href="http://politicaldiscussion.herokuapp.com" class="deploy-link">here</a>.
+          </p>
+        </div>
+        <div class="card teal-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/flashcard-app">
+              Flashcards
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-vuejs-plain"></i>
+            <i class="devicon-express-original"></i>
+            <i class="devicon-mongodb-plain"></i>
+          </p>
+          <p>
+            Vue // Express // Mongo
+          </p>
+          <p>
+            Pulls definitions for user inputted vocab words from the Oxford Dictionary API. Work in progress!
+          </p>
+        </div>
+        <div class="card pink-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/simon">
+              Simon
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-javascript-plain"></i>
+          </p>
+          <p>
+            JavaScript
+          </p>
+          <p>
+            Simple JavaScript application that allows a user to play the game Simon. Implemented using a queue data structure. Deployed
+            <a href="https://aspittel.github.io/simon/" class="deploy-link">here</a>.
+          </p>
+        </div>
+        <div class="card green-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/coding-cheat-sheets">
+              Coding Cheat Sheets
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
+          </p>
+          <p>
+            Writing
+          </p>
+          <p>
+            Markdown files that have primers on computer science fundamentals with lists of practice problems.
+          </p>
+        </div>
+        <div class="card purple-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/coding-problems">
+              Coding Problems
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-python-plain"></i>
+            <i class="devicon-cplusplus-plain"></i>
+          </p>
+          <p>
+            Python // C++
+          </p>
+          <p>
+            This is my default repository for small projects! A lot of these are from classes I've taken or from competitions I've participated
+            in. Some highlights include the Huffman Encoding algorithm, a random writer, and Google Code Jam solutions.
+          </p>
+        </div>
+        <div class="card blue-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/election-map/">
+              Election Map
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-d3js-plain"></i>
+            <i class="devicon-javascript-plain"></i>
+          </p>
+          <p>
+            D3 // JavaScript
+          </p>
+          <p>
+            D3 map that shows the United States' 2016 presidential election results. Deployed
+            <a href="http://aspittel.github.io/election-map/" class="deploy-link">here</a>.
+          </p>
+        </div>
+        <div class="card yellow-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/tic-tac-toe/">
+              Tic Tac Toe
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-javascript-plain"></i>
+          </p>
+          <p>
+            JavaScript
+          </p>
+          <p>
+            Simple Tic Tac Toe game in vanilla JavaScript. Deployed
+            <a href="http://aspittel.github.io/tic-tac-toe/" class="deploy-link">here</a>.
+          </p>
+        </div>
+        <div class="card bright-blue-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/css-flower-art">
+              CSS Flower Art
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-react-plain"></i>
+            <i class="devicon-css3-plain"></i>
+          </p>
+          <p>
+            JavaScript // CSS
+          </p>
+          <p>
+            Simple CSS art with a flower pattern. Deployed
+            <a href="http://aspittel.github.io/css-flower-art/" class="deploy-link">here</a>. I also wrote a <a href="https://medium.com/on-learning-new-things/pure-css-art-a42245a20a1c" class="deploy-link">Medium post</a> on creating it.
+          </p>
+        </div>
+        <div class="card red-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/towers-of-hanoi/">
+              Towers of Hanoi
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-css3-plain"></i>
+          </p>
+          <p>
+            JavaScript // CSS
+          </p>
+          <p>
+            Implementation of the Towers of Hanoi game using Vanilla JavaScript. Deployed
+            <a href="http://aspittel.github.io/towers-of-hanoi/" class="deploy-link">here</a>.
+          </p>
+        </div>
+        <div class="card dark-blue-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/elm-trivia-app">
+              Elm Trivia App
+            </a>
+          </h5>
+          <p>
+            Elm
+          </p>
+          <p>
+            Super simple trivia application built completely in Elm using the Elm architecture! Deployed
+            <a href="http://aspittel.github.io/elm-trivia-app/" class="deploy-link">here</a>. I wrote an article on learning Elm using this app on <a href="https://medium.com/on-learning-new-things/elm-528b04f6de0c" class="deploy-link">Medium</a>.
+          </p>
+        </div>
+        <div class="card orange-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/websocket-drawing">
+              Websocket Drawing App
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-react-original"></i>
+            <i class="devicon-css3-plain"></i>
+          </p>
+          <p>
+            React // CSS // Socket.io
+          </p>
+          <p>
+            Websocket-powered websocket app! Inspired by Reddit's /r/place, this app allows users to collaboratively draw with other
+            users. Deployed
+            <a href="http://aspittel.github.io/websocket-drawing/" class="deploy-link">here</a>. I also wrote an <a href="https://medium.com/on-learning-new-things/socket-io-ac71c86a586d" class="deploy-link">article</a> on learning Socket.io in order to write this app.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="talks">
+      <div class="section-header">
+        <span class="teal letter section-letter">T</span>
+        <span class="green letter section-letter">A</span>
+        <span class="yellow letter section-letter">L</span>
+        <span class="pink letter section-letter">K</span>
+        <span class="orange letter section-letter">S</span>
+      </div>
+      <div class="cards talks">
+        <div class="card dark-blue-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/programming001">
+              Programming 001
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </p>
+          <p>
+            Intro
+          </p>
+          <p>
+            A talk I gave at ByteBack DC on what programming is and what code looks like compared to its output.
+          </p>
+        </div>
+        <div class="card pink-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/intro-to-frameworks">
+              Intro to Frameworks
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="fa fa-code" aria-hidden="true"></i>
+          </p>
+          <p>
+            Intro
+          </p>
+          <p>
+            A talk I gave at CodeHer Conference on what programmers mean when they talk about frameworks. It also goes into why different
+            ones are used for different projects!
+          </p>
+        </div>
+        <div class="card red-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/ga-bokeh-lecture">
+              Intro to Bokeh
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-python-plain"></i>
+          </p>
+          <p>
+            Python
+          </p>
+          <p>
+            Guest lecture given to each of General Assembly's Data Science Immersive cohorts on Bokeh, a Python library for writing web-ready
+            data visualizations.
+          </p>
+        </div>
+        <div class="card yellow-background">
+          <h5>
+            <a class="project-link" href="https://github.com/aspittel/ga-react-tutorial">
+              Intro to React
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-react-original"></i>
+          </p>
+          <p>
+            React
+          </p>
+          <p>
+            Introduction to React tutorial given at General Assembly's DC campus.
+          </p>
+        </div>
+        <div class="card green-background">
+          <h5>
+            <a class="project-link" href="https://www.meetup.com/Women-Who-Code-DC/events/243781293/">
+              Intro to Git
+            </a>
+          </h5>
+          <p class="icons">
+            <i class="devicon-git-plain"></i>
+            <i class="devicon-github-plain"></i>
+          </p>
+          <p>
+            Git // GitHub
+          </p>
+          <p>
+            Introduction to Git and GitHub from the command line given at the Women Who Code DC Meetup.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div id="contact">
+      <div class="section-header">
+        <span class="red section-letter letter">C</span>
+        <span class="purple section-letter letter">O</span>
+        <span class="bright-blue section-letter letter">N</span>
+        <span class="dark-blue section-letter letter">T</span>
+        <span class="blue section-letter letter">A</span>
+        <span class="teal section-letter letter">C</span>
+        <span class="green section-letter letter">T</span>
+      </div>
+      <div class="links">
+        <a href="mailto:ali07cat07@gmail.com" class="social-link"><i class="fa fa-envelope red" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/ali-spittel-768a98119" class="social-link"><i class="fa fa-linkedin dark-blue" aria-hidden="true"></i></a>
+        <a href="https://medium.com/on-learning-new-things" class="social-link"><i class="fa fa-medium green" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/ASpittel" class="social-link"><i class="fa fa-twitter blue" aria-hidden="true"></i></a>
+        <a href="https://github.com/aspittel" class="social-link"><i class="fa fa-github purple" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
