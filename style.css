@@ -194,7 +194,6 @@ canvas {
     display: none;
 }
 
-
 /* Animations */
 
 @keyframes hoveranimation {
@@ -211,6 +210,14 @@ canvas {
 
 .hovered {
     animation: hoveranimation 3s;
+}
+
+.social-link:hover {
+    opacity: .5;
+}
+
+.link:hover {
+    opacity: .5;
 }
 
 
