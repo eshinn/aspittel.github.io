@@ -240,6 +240,11 @@ canvas {
     .name-letter {
         font-size: 150px;
     }
+
+    .bio {
+        margin-right: 10px;
+    }
+
     #links {
         font-size: 15px;
     }
@@ -255,24 +260,33 @@ canvas {
 }
 
 @media (max-width: 600px) {
+    #intro {
+        height: 75vh;
+    }
+
     .name-letter {
         font-size: 100px;
     }
+
     #content {
-        margin-left: 10px;
+        margin-left: 0px;
     }
+
     .logo {
         margin-top: 0px;
     }
+
     p {
         margin-left: 0px;
         font-size: 1rem;
     }
+
     #links {
         text-align: center;
         margin-right: 0px;
         font-size: .75rem;
     }
+    
     .section-letter {
         font-size: 50px;
         letter-spacing: -10px;
