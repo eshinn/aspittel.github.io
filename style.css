@@ -29,6 +29,11 @@ canvas {
     background: #b39ddb;
 }
 
+/* Nav Target Adjustment */
+.content > div[id] {
+    padding-top: 100px;
+    margin-top: -100px;
+}
 
 /* Classes */
 
